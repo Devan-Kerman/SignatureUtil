@@ -1,8 +1,8 @@
-package net.devtech.signutil.type;
+package net.devtech.signutil.v0.api.type;
 
-import net.devtech.signutil.MethodResultType;
-import net.devtech.signutil.Type;
-import net.devtech.signutil.type.reference.ReferenceType;
+import net.devtech.signutil.v0.api.MethodResultType;
+import net.devtech.signutil.v0.api.Type;
+import net.devtech.signutil.v0.api.type.reference.ReferenceType;
 
 public abstract class JavaType extends Type implements MethodResultType {
 	public JavaType(String buffer) {

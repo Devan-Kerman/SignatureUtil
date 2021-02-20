@@ -1,7 +1,7 @@
-package net.devtech.signutil.type.reference;
+package net.devtech.signutil.v0.api.type.reference;
 
-import net.devtech.signutil.type.BaseType;
-import net.devtech.signutil.type.JavaType;
+import net.devtech.signutil.v0.api.type.BaseType;
+import net.devtech.signutil.v0.api.type.JavaType;
 
 public final class ArrayType extends ReferenceType {
 	public static final ArrayType BYTE_ARRAY_1 = withType(BaseType.BYTE);

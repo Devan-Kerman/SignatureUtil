@@ -1,9 +1,10 @@
-package net.devtech.signutil;
+package net.devtech.signutil.v0.api;
 
-import net.devtech.signutil.type.reference.ClassType;
-import net.devtech.signutil.type.reference.ReferenceType;
+import net.devtech.signutil.v0.api.type.reference.ClassType;
+import net.devtech.signutil.v0.api.type.reference.ReferenceType;
 import org.jetbrains.annotations.Nullable;
 
+// todo doesn't this have multiple bounds?
 public final class TypeArgument extends Type {
 	public static final TypeArgument WILD_CARD = new TypeArgument("*", 0, 1);
 	private ReferenceType type;

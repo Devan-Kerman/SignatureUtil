@@ -1,6 +1,4 @@
-package net.devtech.signutil.type;
-
-import net.devtech.signutil.MethodResultType;
+package net.devtech.signutil.v0.api.type;
 
 public final class BaseType extends JavaType {
 	static final String BASE_BUFFER = "BCDFIJSZ";

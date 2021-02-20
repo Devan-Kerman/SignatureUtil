@@ -1,7 +1,7 @@
 package test;
 
-import net.devtech.signutil.TypeArgument;
-import net.devtech.signutil.type.reference.ClassType;
+import net.devtech.signutil.v0.api.TypeArgument;
+import net.devtech.signutil.v0.api.type.reference.ClassType;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

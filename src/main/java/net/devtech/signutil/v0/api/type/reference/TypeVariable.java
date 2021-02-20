@@ -1,4 +1,4 @@
-package net.devtech.signutil.type.reference;
+package net.devtech.signutil.v0.api.type.reference;
 
 /**
  * the use of a type parameter

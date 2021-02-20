@@ -1,11 +1,11 @@
-package net.devtech.signutil.bounded;
+package net.devtech.signutil.v0.api.bounded;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import net.devtech.signutil.type.reference.ClassType;
-import net.devtech.signutil.type.reference.ReferenceType;
+import net.devtech.signutil.v0.api.type.reference.ClassType;
+import net.devtech.signutil.v0.api.type.reference.ReferenceType;
 
 /**
  * a class's signature

@@ -1,4 +1,4 @@
-package net.devtech.signutil.type.reference;
+package net.devtech.signutil.v0.api.type.reference;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -6,10 +6,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import net.devtech.signutil.TypeArgument;
-import net.devtech.signutil.MethodResultType;
-import net.devtech.signutil.type.BaseType;
-import net.devtech.signutil.type.VoidType;
+import net.devtech.signutil.v0.api.TypeArgument;
+import net.devtech.signutil.v0.api.MethodResultType;
+import net.devtech.signutil.v0.api.type.BaseType;
+import net.devtech.signutil.v0.api.type.VoidType;
 import org.jetbrains.annotations.Nullable;
 
 public final class ClassType extends ReferenceType {

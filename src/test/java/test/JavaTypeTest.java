@@ -2,11 +2,11 @@ package test;
 
 import java.util.Arrays;
 
-import net.devtech.signutil.TypeArgument;
-import net.devtech.signutil.type.BaseType;
-import net.devtech.signutil.type.JavaType;
-import net.devtech.signutil.type.reference.ArrayType;
-import net.devtech.signutil.type.reference.ClassType;
+import net.devtech.signutil.v0.api.TypeArgument;
+import net.devtech.signutil.v0.api.type.BaseType;
+import net.devtech.signutil.v0.api.type.JavaType;
+import net.devtech.signutil.v0.api.type.reference.ArrayType;
+import net.devtech.signutil.v0.api.type.reference.ClassType;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

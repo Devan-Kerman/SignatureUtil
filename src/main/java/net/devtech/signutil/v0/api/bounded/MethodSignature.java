@@ -1,11 +1,11 @@
-package net.devtech.signutil.bounded;
+package net.devtech.signutil.v0.api.bounded;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import net.devtech.signutil.MethodResultType;
-import net.devtech.signutil.type.JavaType;
+import net.devtech.signutil.v0.api.MethodResultType;
+import net.devtech.signutil.v0.api.type.JavaType;
 
 public final class MethodSignature extends BoundedType {
 	private List<JavaType> parameters;

@@ -1,7 +1,7 @@
-package net.devtech.signutil.type;
+package net.devtech.signutil.v0.api.type;
 
-import net.devtech.signutil.Type;
-import net.devtech.signutil.MethodResultType;
+import net.devtech.signutil.v0.api.Type;
+import net.devtech.signutil.v0.api.MethodResultType;
 
 public final class VoidType extends Type implements MethodResultType {
 	public static final VoidType INSTANCE = new VoidType("V");

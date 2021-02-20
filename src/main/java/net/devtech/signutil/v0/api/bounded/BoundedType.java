@@ -1,10 +1,10 @@
-package net.devtech.signutil.bounded;
+package net.devtech.signutil.v0.api.bounded;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import net.devtech.signutil.Type;
+import net.devtech.signutil.v0.api.Type;
 
 public class BoundedType extends Type {
 	List<TypeParameter> typeParameters;

@@ -3,9 +3,9 @@ package test;
 import java.util.Arrays;
 import java.util.Collections;
 
-import net.devtech.signutil.bounded.ClassSignature;
-import net.devtech.signutil.bounded.TypeParameter;
-import net.devtech.signutil.type.reference.ClassType;
+import net.devtech.signutil.v0.api.bounded.ClassSignature;
+import net.devtech.signutil.v0.api.bounded.TypeParameter;
+import net.devtech.signutil.v0.api.type.reference.ClassType;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

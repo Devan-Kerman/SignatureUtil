@@ -1,4 +1,4 @@
-package net.devtech.signutil;
+package net.devtech.signutil.v0.api;
 
 public abstract class Type {
 	public final String buffer;

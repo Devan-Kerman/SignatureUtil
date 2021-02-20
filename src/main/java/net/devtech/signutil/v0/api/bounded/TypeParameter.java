@@ -1,13 +1,16 @@
-package net.devtech.signutil.bounded;
+package net.devtech.signutil.v0.api.bounded;
 
+import java.lang.reflect.TypeVariable;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
-import net.devtech.signutil.Type;
-import net.devtech.signutil.type.reference.ClassType;
-import net.devtech.signutil.type.reference.ReferenceType;
+import net.devtech.signutil.internal.TypeInternal;
+import net.devtech.signutil.v0.api.MethodResultType;
+import net.devtech.signutil.v0.api.Type;
+import net.devtech.signutil.v0.api.type.reference.ClassType;
+import net.devtech.signutil.v0.api.type.reference.ReferenceType;
 
 public final class TypeParameter extends Type {
 	// only valid for read type parameters
@@ -34,6 +37,18 @@ public final class TypeParameter extends Type {
 		copied.classBound = parameter.getClassBound();
 		copied.interfaceBound = parameter.getInterfaceBounds();
 		return copied;
+	}
+
+	public static TypeParameter create(TypeVariable<?> type) {
+		StringBuilder builder = new StringBuilder();
+		builder.append(type.getName());
+		for (java.lang.reflect.Type bound : type.getBounds()) {
+			builder.append(':');
+			if(bound != Object.class) {
+				TypeInternal.appendSignature(builder, bound, true);
+			}
+		}
+		return TypeParameter.create(builder.toString());
 	}
 
 	private TypeParameter(String buffer, int start, int end) {
