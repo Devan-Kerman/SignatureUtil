@@ -1,7 +1,19 @@
 # SignatureUtil
-An actually good signature api for asm signatures
-[![](https://jitpack.io/v/Devan-Kerman/SignatureUtil.svg)](https://jitpack.io/#Devan-Kerman/SignatureUtil)
+An actually good signature api for asm signatures.
 
+On Jitpack
+
+[![](https://jitpack.io/v/Devan-Kerman/SignatureUtil.svg)](https://jitpack.io/#Devan-Kerman/SignatureUtil)
+```gradle
+repositories {
+	maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+	// don't worry I never break compat
+	implementation 'com.github.Devan-Kerman:SignatureUtil:-SNAPSHOT'
+}
+```
 
 ```java
 import java.util.ArrayList;
