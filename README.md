@@ -1,5 +1,7 @@
 # SignatureUtil
 An actually good signature api for asm signatures
+[![](https://jitpack.io/v/Devan-Kerman/SignatureUtil.svg)](https://jitpack.io/#Devan-Kerman/SignatureUtil)
+
 
 ```java
 import java.util.ArrayList;
